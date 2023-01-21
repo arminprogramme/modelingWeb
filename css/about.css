@@ -1,0 +1,232 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient( to right, rgba(0, 0, 0, 0), #000000c4), url(../image/bg_1.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay {
+        overflow-y: auto;
+    }
+    .overlay a {
+        font-size: 20px
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.header-about {
+    background-image: linear-gradient(to right, rgba(221, 221, 221, 0), rgba(14, 14, 14, 0.753)), url(../image/bg_2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f62a66;
+}
+
+.fa-bars {
+    cursor: pointer;
+    transition: 0.3s;
+    color: #fdfdfd;
+}
+
+.fa-bars:hover,
+.fa-bars:focus {
+    color: #f62a66;
+}
+
+.banner-about {
+    padding-top: 16em;
+    padding-bottom: 3em;
+}
+
+.address-span {
+    font-size: 1.3rem;
+}
+
+.address-span a:hover {
+    color: #8e8e8e!important;
+    transition: 0.3s;
+}
+
+.content-top-main {
+    padding: 7%;
+}
+
+.content-top-main {
+    padding: 7%;
+}
+
+.content-top-main h1 {
+    font-size: 3rem;
+    letter-spacing: 5px;
+    padding-bottom: 2.5rem;
+}
+
+.content-top-main p {
+    font-size: 1.2rem!important;
+}
+
+.content-top-main ul li {
+    line-height: 3.5rem;
+    font-size: 1.2rem!important;
+}
+
+.content-top-main p,
+.content-top-main ul,
+.content-top-main button {
+    color: #4a4a4a;
+    font-size: 1.5rem;
+}
+
+.watch-video {
+    background-color: #f62a66;
+    color: #fff!important;
+}
+
+.watch-video:hover {
+    background-color: transparent;
+    color: #f62a66!important;
+}
+
+.clients-main-about {
+    margin: 5em 0;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.914), rgba(255, 255, 255, 0.921)), url(../image/bg_7.jpg);
+    background-attachment: fixed;
+    padding: 3em 5em;
+}
+
+.img-clients img {
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.text-clients {
+    padding: 2rem 1rem;
+}
+
+.text-clients p {
+    font-size: 1.3rem;
+    color: #444;
+}
+
+.li-item-services {
+    padding: 1.5rem 0;
+}
+
+.services-option-item p {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    color: #444;
+}
+
+.footer-about {
+    background-color: rgb(35, 35, 35);
+    color: #fff;
+    padding: 3rem 1.5rem;
+    margin-top: 10em;
+}
+
+.footer-about p {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+
+.text-clients {
+    padding: 2rem 1rem;
+}
+
+.footer-part-3 img {
+    width: 10rem;
+    padding: 1.2rem;
+}
+
+.footer-about ul {
+    list-style: none;
+}
+
+.footer-about li {
+    font-size: 1.4rem;
+    color: #ccc;
+    padding: 1rem;
+}
+
+.btn-submit {
+    background-color: #f62a66;
+    margin: 2rem 0;
+}
+
+.footer-part {
+    padding: 3rem 1.6rem;
+}
+
+.footer-copy-right {
+    padding: 5rem;
+    font-size: 1.3rem;
+    color: #bfbfbf;
+}
